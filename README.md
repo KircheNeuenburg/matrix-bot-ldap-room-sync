@@ -1,0 +1,1 @@
+# matrix-bot-ldap-room-sync
