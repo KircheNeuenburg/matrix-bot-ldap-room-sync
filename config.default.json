@@ -1,0 +1,26 @@
+{
+    "matrix": {
+       "domain_homeserver": "matrix.example.net",
+       "bot_id": "@room_bot:matrix.example.net",
+       "bot_pw": "room_bot_password"
+          
+    },
+    "ldap": {
+        "server_address": "ldap.example.net",
+        "server_port": "389",
+        "bind_dn": "cn=admin,dc=example,dc=net",
+        "bind_pw": "ldap_admin_password",
+        "base_dn_group": "ou=groups,dc=example,dc=net",
+        "base_dn_user": "ou=people,dc=example,dc=net",
+        "object_class_group": "posixGroup",
+        "object_class_user": "posixAccount",
+        "member_format": "memberUid",
+        "member_mapping": "uid",
+        "filter_group": "",
+        "filter_user": ""
+    },
+    "app": {
+        "room_appendix": "_ldap",
+        "kick_enabled": true
+    }
+}

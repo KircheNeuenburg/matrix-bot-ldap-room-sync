@@ -1,0 +1,23 @@
+{
+  "name": "matrix-bot-ldap-room-sync",
+  "version": "1.0.0",
+  "description": "Matrix Bot to sync rooms from LDAP",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KircheNeuenburg/matrix-bot-ldap-room-sync.git"
+  },
+  "author": "David Lang",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/KircheNeuenburg/matrix-bot-ldap-room-sync/issues"
+  },
+  "homepage": "https://github.com/KircheNeuenburg/matrix-bot-ldap-room-sync#readme",
+  "dependencies": {
+    "ldapjs": "^1.0.2",
+    "matrix-js-sdk": "^1.0.1-rc.1"
+  }
+}
